@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Line by line comparison is very tedious to do manually, but Windows' FC command automated the drudgery.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would be easier to revert to older version when a bug is introduced (or just detect the bug).
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual - you can choose meaningful versions but you might forget. Auto - Many of the different versions won't be meaningful/discrete, but you won't forget to back up.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is for programming projects which generally have many files. Docs is for office tasks using just one or two docs.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows you all the commits and ids. You can diff the commits with the ids.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can easily revert to a stable, working commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Managing projects in personal coding courses. 
+    Comparing Epic's version control with industry standard.
