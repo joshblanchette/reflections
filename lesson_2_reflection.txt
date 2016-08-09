@@ -11,10 +11,16 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+	When I have two separate projects I want to keep straight. The fact that they can be merged means I should keep distinct features in separate branches when possible.
+
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+	It's helpful to see how commits are related to each other.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	
+	if two are equal, choose the third. If a single line is different across the three, throw an error
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+	
+	It automates all the drudgery and leaves you with the challenging wisdom portion that computers suck at.
